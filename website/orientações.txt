@@ -1,0 +1,39 @@
+
+Cadastro de unidades, especialidades, classes e desbravadores:
+
+Desenvolva os formulários de cadastro para unidades, especialidades, classes e desbravadores.
+Crie as páginas correspondentes para exibir e atualizar essas informações.
+Implemente a lógica para armazenar e recuperar os dados do banco de dados.
+Controle de mensalidade:
+
+Crie um formulário para registrar os pagamentos das mensalidades dos desbravadores.
+Desenvolva uma página para exibir o status dos pagamentos e permitir atualizações.
+Implemente a lógica para calcular e acompanhar os pagamentos em atraso.
+Controle de caixa:
+
+Crie formulários para registrar as entradas e saídas financeiras do clube.
+Desenvolva uma página para exibir o histórico de transações e o saldo atual do caixa.
+Implemente a lógica para calcular o saldo do caixa com base nas transações registradas.
+Controle de custos:
+
+Crie um formulário para registrar os custos incorridos pelo clube.
+Desenvolva uma página para exibir os custos registrados e permitir atualizações.
+Implemente a lógica para calcular o total de custos e apresentá-lo ao usuário.
+Controle de patrimônio:
+
+Crie formulários para registrar os ativos e patrimônio do clube.
+Desenvolva uma página para exibir os itens de patrimônio e permitir atualizações.
+Implemente a lógica para calcular e exibir o valor total do patrimônio do clube.
+Controle de Atas e Atos:
+
+Crie formulários para registrar as atas e atos do clube.
+Desenvolva páginas para exibir as atas e atos registrados e permitir atualizações.
+Implemente a lógica para armazenar e recuperar as informações relacionadas às atas e atos.
+Relatórios:
+
+Desenvolva páginas para gerar relatórios específicos, como autorização de saída, fluxo de caixa, patrimônio, livro de atas e atos, mensalidades e informações das unidades, classes, especialidades e desbravadores.
+Utilize consultas ao banco de dados para obter os dados necessários e formate os relatórios adequadamente.
+Documentação de uso do sistema:
+
+Prepare uma documentação detalhada, incluindo instruções de instalação, descrição das funcionalidades e guias passo a passo para cada parte do sistema.
+Certifique-se de testar cada parte do sistema à medida que você as desenvolve e de garantir a integração adequada entre elas. Isso permitirá que você identifique e corrija eventuais problemas antes de prosseguir para a próxima parte.

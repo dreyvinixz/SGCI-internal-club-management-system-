@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+:root {
+    --white: #FFF;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ECECEC;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #292929;
+    --def-grey: #191919;
+    --black: #000000;
+    --blue: rgb(77, 77, 186);
+    --red: #CF3C3F;
+}
+
+.linha_superior {
+    background-color: var(--blue);
+    height: 130px;
+    width: 100%;
+}
+
+body {
+    background-color: var(--def-grey);
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .turthle {
+      top: 30px;
+      left: 0;
+      text-align: center;
+    }
+}
+
+.turthle {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--light-grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.turthle p {
+    margin-bottom: 0;
+}
+
+.turthle img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+.menu-button {
+    position: absolute;
+    width: 65px;
+    margin-top: 10px;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    color: var(--white);
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    background-color: var(--yellow);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: max-height 0.35s ease;
+    max-height: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .menu.show {
+    display: flex;
+    max-height: 500px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.2em;
+    display: block;
+  }
+  
+  .item-tab {
+    position: fixed;
+    top: 0;
+    right: -35px;
+    width: 260px;
+    height: 100%;
+    background-color: #262a34;
+    padding: 20px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .item-tab.show {
+    transform: translateX(0);
+}
+
+.backgroud-blue{
+  background-color: var(--black);
+  width: 100%;
+  padding: 20px;
+  height: 600px;
+  color: var(--white); 
+  position: absolute;
+}
+
+
+  /* Adicione regras de responsividade para telas pequenas */
+  
+  @media (max-width: 480px) {
+    .turthle {
+      top: 10px;
+      left: 10px;
+      font-size: 0.7em;
+    }
+  
+    .turthle img {
+      width: 80px;
+    }
+  
+    .login {
+      top: 80px;
+      padding: 35px 5% 70px;
+    }
+  
+    .login__title {
+      font-size: 18px;
+      left: -10px;
+    }
+  
+    .menu-button {
+      top: 20px;
+      right: 10px;
+      width: 50px;
+      padding: 8px 12px;
+      font-size: 0.8em;
+    }
+  
+    .menu {
+      top: 60px;
+      right: 10px;
+      width: 150px;
+      padding: 10px;
+    }
+  
+    .menu-list li a {
+      font-size: 1em;
+    }
+  
+    .item-tab {
+      right: -250px;
+      width: 200px;
+    }
+  }
+  
+  
+  /* Adicione regras de responsividade para zooms extremos */
+  
+  @media (max-width: 480px) and (max-height: 600px) {
+    .menu-button {
+      top: 10px;
+    }
+  
+    .menu {
+      top: 50px;
+      max-height: 400px;
+    }
+  
+    .item-tab {
+      height: calc(100% - 50px);
+    }
+  }
+  
+  .content-container {
+    transition: transform 0.35s ease;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .content-shift {
+    transform: translateX(-250px);
+  }
+  
+  .imagescr {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2px; /* Ajuste o valor conforme necessário */
+  }
+  
+  .imagescr img {
+    width: 20px;
+    margin-right: 20px;
+  }
+  
+span{
+  margin-top: 30px;
+}
